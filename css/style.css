@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Satisfy&family=Shantell+Sans:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(247, 238, 226);
+}
+img {
+  width: 200px;
+  height: 300px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.55) 0px 5px 15px;
+  transition: 0.3s linear all;
+}
+img:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 25px;
+  scale: 1.02;
+}
+a {
+  text-decoration: none;
+  color: #7048e8;
+  transition: 0.3s linear all;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+a:hover,
+a:active {
+  color: #5e0830;
+  font-size: 1.4rem;
+}
+
+.img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 0;
+}
+.nimi,
+.nimi2 {
+  text-align: center;
+  background: rgb(47, 158, 68);
+  background: linear-gradient(
+    90deg,
+    rgba(47, 158, 68, 1) 0%,
+    rgba(47, 158, 68, 1) 15%,
+    rgba(28, 126, 214, 1) 35%,
+    rgba(28, 126, 214, 1) 35%,
+    rgba(28, 126, 214, 1) 65%,
+    rgba(28, 126, 214, 1) 65%,
+    rgba(47, 158, 68, 1) 85%,
+    rgba(47, 158, 68, 1) 100%
+  );
+
+  color: #fff;
+}
+.nimi {
+  font-family: "Permanent Marker", cursive;
+}
+.nimi2 {
+  font-family: "Satisfy", cursive;
+  max-width: 50rem;
+  margin: 0 auto;
+}
+h3 {
+  border-radius: 8px;
+  padding: 0.5rem;
+  transition: all 0.4s ease-in-out;
+}
+h3:hover {
+  background: rgb(28, 126, 214, 1);
+  background: linear-gradient(
+    90deg,
+    rgba(28, 126, 214, 1) 0%,
+    rgba(28, 126, 214, 1) 15%,
+    rgba(47, 158, 68, 1) 35%,
+    rgba(47, 158, 68, 1) 35%,
+    rgba(47, 158, 68, 1) 65%,
+    rgba(47, 158, 68, 1) 65%,
+    rgba(28, 126, 214, 1) 85%,
+    rgba(28, 126, 214, 1) 100%
+  );
+}
+.osad {
+  text-align: center;
+  font-family: "Shantell Sans", cursive;
+  color: rgb(111, 111, 147);
+  padding: 1rem 0;
+  list-style: none;
+}
+.container {
+  max-width: 50rem;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Shantell Sans", cursive;
+  color: rgb(111, 111, 147);
+  padding: 1rem 0;
+}
+footer {
+  text-align: center;
+  font-family: "Shantell Sans", cursive;
+  color: rgb(111, 111, 147);
+  padding: 0.3rem 0;
+}
